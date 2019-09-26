@@ -5,6 +5,7 @@ from utf8totex import utf8totex
 
 #Stolen shamelessly and adapted from Adrien Price-Whelan
 #(under creative commons licence https://creativecommons.org/licenses/by/4.0/)
+# Added functionality to isolate conference proceedings, and output co-authored publications into separate lists
 #original version https://github.com/adrn/cv
 
 _JOURNAL_MAP = {
