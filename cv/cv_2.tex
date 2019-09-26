@@ -7,7 +7,7 @@
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Rensselaer Polytechnic Institute 
+% Rensselaer Polytechnic Institute
 % (http://www.rpi.edu/dept/arc/training/latex/resumes/)
 %
 % Modified by:
@@ -27,7 +27,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % You can have multiple style options the legal options ones are:
 %
-%   centered:	the name and address are centered at the top of the page 
+%   centered:	the name and address are centered at the top of the page
 %				(default)
 %
 %   line:		the name is the left with a horizontal line then the address to
@@ -36,20 +36,30 @@
 %   overlapped:	the section titles overlap the body text (default)
 %
 %   margin:		the section titles are to the left of the body text
-%		
+%
 %   11pt:		use 11 point fonts instead of 10 point fonts
 %
 %   12pt:		use 12 point fonts instead of 10 point fonts
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[margin]{res}  
+\documentclass[margin]{res}
 
 % Default font is the helvetica postscript font
 \usepackage{helvet}
+\usepackage{aasmacros}
+\usepackage{hyperref}
+\usepackage{enumitem}
 
 % Increase text height
 \textheight=700pt
+
+\setitemize{noitemsep,topsep=0pt,parsep=3pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\doi}[2]{\emph{\href{http://dx.doi.org/#1}{{#2}}}}
+\newcommand{\ads}[2]{\href{http://adsabs.harvard.edu/abs/#1}{{#2}}}
+\newcommand{\arxiv}[1]{{\href{http://arxiv.org/abs/#1}{arXiv:{#1}}}}
 
 \begin{document}
 
@@ -97,81 +107,82 @@ Postdoctoral Research Fellow, \emph{University of Birmingham}}
 %	PROJECTS SECTION
 %-------------------------------------------------------------------------------
 \section{PAPERS\\ As first author}
-\par
-- \textbf{Mackereth JT}, Bovy J et al. \emph{Weighing the stellar constituents of the Galactic halo with APOGEE red giant stars}, 2019, MNRAS, in prep. \\
-- \textbf{Mackereth JT}, Bovy J, Leung HW et al. \emph{Dynamical heating across the Milky Way disc using APOGEE and Gaia}, 2019, MNRAS, 489(1) (arXiv:1901.04502) \\
-- \textbf{Mackereth JT}, Schiavon RP, Pfeffer J et al. \emph{The origin of accreted stellar halo populations in the Milky Way using APOGEE, Gaia, and the EAGLE simulations}, 2019, MNRAS, 482(3) (arXiv: 1808.00968) \\
-- \textbf{Mackereth JT} and Bovy J \emph{Fast estimation of orbital parameters in Milky-Way-like potentials}, 2018, PASP, 130:993 (arXiv:1802.02592)
-\newline - \textbf{Mackereth JT}, Crain RA, Schiavon RP et al., \emph{The origin of diverse $\alpha$-element enrichment in galaxy discs}, 2018, MNRAS, 477(4) (arXiv: 1801.03593) 
-\newline - \textbf{Mackereth JT}, Bovy J, Schiavon RP et al. \emph{The age-metallicity structure of the Milky Way disc using APOGEE}, 2017, MNRAS, 471(3) (arXiv: 1706.00018)
-
+\begin{itemize}
+\input{pubs_firstauthor}
+\end{itemize}
 \section{As Co-Author}
-- Trick WH, Fragkoudi F, Hunt JAS, \textbf{Mackereth JT} et al. \emph{Identifying resonances of the Galactic bar in Gaia DR2: Clues from action space} 2019, MNRAS, Submitted. 
-\newline - Bovy J, Leung HW, Hunt JAS, \textbf{Mackereth JT} et al. \emph{Life in the fast lane: a direct view of the dynamics, formation, and evolution of the Milky Way's bar} 2019, MNRAS, Submitted. 
-\newline - Vincenzo, F, Miglio, A, Kobayashi, C, \textbf{Mackereth, JT} et al. \emph{He abundances in disc galaxies -- I. Predictions from cosmological chemodynamical simulations} 2019, A\&A, in press. 
-\newline - Hunt JAS, Bub MW, Bovy J et al. (incl. \textbf{JTM}) \emph{Signatures of resonance and phase mixing in the Galactic disk} 2019, MNRAS, in press.
-\newline - Aguado DS, Ahumada R, Almeida A et al. (incl. \textbf{JTM}) \emph{The Fifteenth Data Release of the Sloan Digital Sky Surveys: First Release of MaNGA-derived Quantities, Data Visualization Tools, and Stellar Library} 2019, ApJS, 240(23)
-\newline - Boecker A, Leaman R, van de Ven G et al. (incl. \textbf{JTM}) \emph{A galaxy's accretion history unveiled from its integrated spectrum} 2019, MNRAS, Submitted.
-\newline - Abolfathi B, Aguado DS, Aguilar G et al. (incl. \textbf{JTM}) \emph{The Fourteenth Data Release of the Sloan Digital Sky Survey: First Spectroscopic Data from the Extended Baryon Oscillation Spectroscopic Survey and from the Second Phase of the Apache Point Observatory Galactic Evolution Experiment} 2018, ApJS, 235(2)
-\newline - Albareti, FD, Allende Prieto C, Almeida A et al. (incl. \textbf{JTM}) \emph{The 13th Data Release of the Sloan Digital Sky Survey: First Spectroscopic Data from the SDSS-IV Survey Mapping Nearby Galaxies at Apache Point Observatory} 2017, ApJS, 233(2)
-\newline - Schiavon RP, Zamora O, Carrera R et al. (incl. \textbf{JTM}) \emph{Chemical tagging with APOGEE: discovery of a large population of N-rich stars in the inner Galaxy} 2017, MNRAS, 465(1)
-
+\begin{itemize}
+\input{pubs_coauthor}
+\end{itemize}
+\section{Submitted \& in press}
+\begin{itemize}
+\input{pubs_unref}
+\end{itemize}
 \section{Conference Proceedings}
-- \textbf{Mackereth JT}, Bovy J, Schiavon RP and SDSS-IV/APOGEE Collaboration \emph{The age-metallicity structure of the Milky Way disc with APOGEE} Rediscovering our Galaxy, IAU Symposium Vol. 334
+\begin{itemize}
+\input{pubs_proceedings}
+ \end{itemize}
 %-------------------------------------------------------------------------------
-\section{TALKS \& WORKSHOPS}
-- Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way, \emph{Contributed Talk, 'The Gaia Treasure Hunt', MWGAIA COST action workshop}, Cambridge, UK\\
-- Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way, \emph{CITA Seminar}, Toronto, ON, Canada\\ 
-- Constraints on the assembly of the Milky Way from APOGEE, \emph{Gaia} and the EAGLE simulations, \emph{Invited Talk, KITP Conference: `In the balance: stasis and disequilibrium in the Milky Way'}, Santa Barbara, CA, USA\\ 
-- Introduction to \emph{Gaia} data using ADQL, \emph{Postgraduate Skills Session, University of Birmingham}, Birmingham, UK\\
-- Weighing Stars from Birth to Death: How to Determine Stellar Masses?, \emph{2018 Lorentz Center Workshop (Invited)}, Leiden, The Netherlands\\
-- Constraining the formation of the Milky Way disk with APOGEE, Gaia and the EAGLE simulations, \emph{Invited Plenary Talk, SDSS-IV Collaboration Meeting 2018}, Seoul, South Korea\\
-- 2018 \emph{Gaia} Sprint Participant, \emph{CCA, Flatiron Institute}, New York City, USA\\
-- The origin of diverse $\alpha$-element enrichment in galaxy discs, \emph{Friday Lunch Astronomy Talk}, ICC, Durham University\\
-- Constraints on the origin of the high-$\mathrm{[\alpha/Fe]}$ disc with APOGEE-\emph{Gaia}, \emph{Gaia: The billion-star galaxy census: at the threshold of Gaia data release 2, EWASS 2018}, Liverpool, UK \\
-- Contextualising $\mathrm{[\alpha/Fe]}$ bimodality in the EAGLE simulations, \emph{Hello, goodbye: understanding the duality of the Milky Way, EWASS 2018}, Liverpool, UK \\
-- Galactic Archaeology with mono-age stellar populations, \emph{BISON Group talk}, March 2018, University of Birmingham\\
-- The Milky Way in a cosmological context: The origin of diverse $\alpha$-element enrichment in galaxy discs, \emph{Virgo Collaboration Meeting 2017}, Garching, Germany\\
-- The origin of $\alpha$-element bimodality in the Milky Way and galaxy discs, \emph{Informal Talk, Flatiron CCA Stars Group Meeting}, New York City, USA\\
-- Dunlap Institute Visiting Member, \emph{Dunlap Institute, University of Toronto}, Toronto ON, Canada\\
-- 2017 Gaia Sprint Participant, \emph{MPIA}, Heidelberg, Germany\\
-- Reconstructing the history of the Milky Way disc, \emph{Poster Prize Talk, IAUS334: Rediscovering our Galaxy}, Potsdam, Germany\\
-- Reconstructing the history of the Milky Way disc, \emph{Bridging the near and the far: from the Milky Way to nearby galaxies, EWASS 2017}, Prague, Czech Republic\\
-- Constraining models for Galactic disk formation with APOGEE and EAGLE, \emph{SDSS-IV Collaboration Meeting 2016}, Madison, WI\\
+\section{TALKS}
+\begin{itemize}
+\item[-] \emph{Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way}, Contributed Talk, \emph{The Gaia Treasure Hunt}, MWGAIA COST action workshop, Cambridge, UK
+\item[-] \emph{Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way}, CITA Seminar, Toronto, ON, Canada
+\item[-] \emph{Constraints on the assembly of the Milky Way from APOGEE, \emph{Gaia} and the EAGLE simulations}, Invited Talk, KITP Conference: \emph{`In the balance: stasis and disequilibrium in the Milky Way'}, Santa Barbara, CA, USA
+\item[-] \emph{Constraining the formation of the Milky Way disk with APOGEE, Gaia and the EAGLE simulations}, Invited Plenary Talk, SDSS-IV Collaboration Meeting 2018, Seoul, South Korea
+\item[-]\emph{The origin of diverse $\alpha$-element enrichment in galaxy discs}, Invited Lunch Seminar, ICC, Durham University
+\item[-] \emph{Constraints on the origin of the high-$\mathrm{[\alpha/Fe]}$ disc with APOGEE-\emph{Gaia},} Contributed Talk, \emph{Gaia: The billion-star galaxy census: at the threshold of Gaia data release 2}, EWASS 2018, Liverpool, UK 
+\item[-] \emph{Contextualising $\mathrm{[\alpha/Fe]}$ bimodality in the EAGLE simulations}, Contributed Talk \emph{Hello, goodbye: understanding the duality of the Milky Way}, EWASS 2018, Liverpool, UK 
+\item[-] \emph{Galactic Archaeology with mono-age stellar populations}, Invited Seminar, March 2018, University of Birmingham
+\item[-] \emph{The Milky Way in a cosmological context: The origin of diverse $\alpha$-element enrichment in galaxy discs}, Contributed Talk, Virgo Collaboration Meeting 2017, Garching, Germany
+\item[-] \emph{The origin of $\alpha$-element bimodality in the Milky Way and galaxy discs}, Informal Talk, Flatiron CCA Stars Group Meeting, New York City, USA
+\item[-] \emph{Reconstructing the history of the Milky Way disc}, Poster Prize Talk, IAUS334: \emph{Rediscovering our Galaxy}, Potsdam, Germany
+\item[-] \emph{Reconstructing the history of the Milky Way disc}, Contributed Talk, \emph{Bridging the near and the far: from the Milky Way to nearby galaxies}, EWASS 2017, Prague, Czech Republic
+\item[-] \emph{Constraining models for Galactic disk formation with APOGEE and EAGLE}, Contributed Talk, SDSS-IV Collaboration Meeting 2016, Madison, WI
+\end{itemize}
 
-
+\section{WORKSHOPS}
+\begin{itemize}
+\item[-] \emph{Weighing Stars from Birth to Death: How to Determine Stellar Masses?}, 2018 Lorentz Center Workshop (Invited), Leiden, The Netherlands
+\item[-] \emph{2018 \emph{Gaia} Sprint}, CCA, Flatiron Institute, New York City, USA
+\item[-] \emph{2017 \emph{Gaia} Sprint}, \emph{MPIA}, Heidelberg, Germany
+\end{itemize}
 
 \section{GRANTS \& AWARDS}
-\par
-- 2019 LJMU Faculty of Engineering Best Thesis prize \\
-- 2018 SDSS Early Career Travel Fund Grant, \emph{USD 600}\\
--  2017 Dunlap Visitor Grant, \emph{CAD 1800} Dunlap Institute, University of Toronto\\
-- 2017 RAS Personal Grant, \emph{GBP 1000} The kinematics and dynamics of mono-abundance populations in the Milky Way using Gaia and APOGEE\\
-- IAUS334 Travel Grant, \emph{EUR 280}\\
-- Poster Prize, \emph{IAUS334}, Potsdam, Germany\\
-
+\begin{itemize}
+\item[-] LJMU Faculty of Engineering Thesis prize, 2019 
+\item[-] SDSS Early Career Travel Fund Grant, 2018
+\item[-] Dunlap Institute Visiting Member, Dunlap Institute, University of Toronto, Toronto ON, Canada
+\item[-] RAS Personal Grant, 2017, \emph{The kinematics and dynamics of mono-abundance populations in the Milky Way using Gaia and APOGEE}
+\item[-] IAUS334 Travel Grant
+\item[-] Poster Prize, IAUS334, Potsdam, Germany
+\end{itemize}
 
 
 \section{OTHER AFFILIATIONS}
-\par
-- SDSS `Milky Way as a Galaxy' Working Group Co-Chair \\
-- SDSSIV/APOGEE-2 Team member\\
-- APO-K2 Core science team member\\
-- WEAVE survey Galactic Archaeology science working group Member\\
-- \textbf{Reviewer:} MNRAS, ApJ, A\&A, CanTAC\\
-
+\begin{itemize}
+\item[-] SDSS `Milky Way as a Galaxy' Working Group Co-Chair 
+\item[-] SDSSIV/APOGEE-2 Team member
+\item[-] APO-K2 Core science team member
+\item[-] WEAVE survey Galactic Archaeology science working group Member
+\item[-] \textbf{Reviewer:} MNRAS, ApJ, A\&A, CanTAC
+\end{itemize}
 
 \section{SOFTWARE}
-\par
-- Developer of \emph{sewingmachine} equivalent width code\\
-- \emph{galpy} galactic dynamics package contributor\\
-- \emph{apogee} python package contributor\\
-\textbf{Languages:} Python, R, Stan, Tensorflow, SQL/ADQL, \LaTeX.\\
+\begin{itemize}
+\item[-] \emph{galpy} galactic dynamics package contributor
+-\item[-] \emph{apogee} python package contributor
+\item[-] \textbf{Languages:} Python, R, Stan, Tensorflow, SQL/ADQL, \LaTeX.
+\end{itemize}
 
-\section{TEACHING \& MENTORING}
-\par 
+\section{STUDENT MENTORING}
+Danny Horta-Darrington, \emph{PhD Student}, LJMU, 2018-Present\\
+Rayhan Mahmud, \emph{Undergraduate Summer Student}, UoB, 2019
+
+
+\section{TEACHING}
 \textbf{University of Birmingham}\\
 - Demonstrator, \emph{Computational Physics}\\
+- Instructor, \emph{Postgraduate Research Skills}\\
 \textbf{Liverpool John Moores University}\\
 - Senior Demonstrator, \emph{Practical Astrophysics}\\
 - Tutor, \emph{Computational Galactic Dynamics, Distance Learning MSc}\\
@@ -181,21 +192,12 @@ Postdoctoral Research Fellow, \emph{University of Birmingham}}
 
 \section{OUTREACH ACTIVITIES}
 \par
-- Featured on Japanese national broadcaster NHK's \emph{Cosmic Front NEXT} programme on the `Miracle Milky Way'\\
+- Featured on Japanese national broadcaster NHK's \emph{Cosmic Front NEXT} documentary on the `Miracle Milky Way'\\
 - Tim Peake Cosmic Classroom Event, February 2016 \emph{World Museum, Liverpool}\\
 - The Size of the Universe (talk/workshop), April 2016 \emph{Werneth Primary School, Oldham, UK}\\
 - Travelling to Space (talk/workshop), March 2018 \emph{Abraham Moss Community School, Manchester, UK}\\
 - Undergraduate open days student representative, 2016-2018 \emph{Liverpool John Moores University / University of Liverpool}
 
-%-------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%-------------------------------------------------------------------------------
-\section{SPECIFIC SKILLS}
-- Stellar spectroscopy\\
-- Numerical simulations of galaxy formation\\
-- Statistical modelling and inference in multidimensional data\\
-- Analysis of massive stellar surveys (APOGEE, \emph{Gaia}, WEAVE) \\
-\\
 
 %-------------------------------------------------------------------------------
 
