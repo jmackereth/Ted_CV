@@ -17,7 +17,7 @@ then
   # Build the paper using tectonic
   cd cv
   tectonic cv_2.tex --print
-
+  echo $TRAVIS_BUILD_DIR
   # Force push the paper to GitHub
   cd $TRAVIS_BUILD_DIR
   git checkout --orphan $TRAVIS_BRANCH-pdf
