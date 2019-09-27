@@ -1,7 +1,7 @@
 import json
 import ads
 
-#Stolen shamelessly and adapted from Adrien Price-Whelan 
+#Stolen shamelessly and adapted from Adrien Price-Whelan
 #(under creative commons licence https://creativecommons.org/licenses/by/4.0/)
 #original version https://github.com/adrn/cv
 
@@ -47,7 +47,7 @@ def get_all_papers(author):
 
 
 if __name__ == '__main__':
-    papers = get_all_papers("price-whelan, a")
+    papers = get_all_papers("Mackereth, J T")
 
     with open("pubs.json", "w") as f:
         json.dump(papers, f, sort_keys=True,
