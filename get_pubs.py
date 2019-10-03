@@ -48,6 +48,7 @@ def get_all_papers(author):
 
 if __name__ == '__main__':
     papers = get_all_papers("Mackereth, J T")
+    papers.extend(get_all_papers("Mackereth, Ted")) #papers where people missed off the J...
 
     with open("pubs.json", "w") as f:
         json.dump(papers, f, sort_keys=True,
