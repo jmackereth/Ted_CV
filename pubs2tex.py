@@ -1,4 +1,5 @@
 from datetime import date
+import datetime
 import json
 import re
 from utf8totex import utf8totex
@@ -122,6 +123,9 @@ def get_paper_items(papers):
     preprints = []
     first_authors = []
     co_authors = []
+    #need to do a re-sort by pubdate
+    dates = []
+    papers = sorted(papers, key=lambda x: x['pubdate'], reverse=True)
     for paper in papers:
         authors = parse_authors(paper)
         entry = authors
@@ -163,9 +167,6 @@ def get_paper_items(papers):
         else:
             is_preprint = True
 
-        if is_proceedings:
-            print(is_preprint)
-
         if paper["volume"] is not None:
             entry += ", {{{0}}}".format(paper["volume"])
 
@@ -189,7 +190,7 @@ def get_paper_items(papers):
         if "mackereth" in paper["authors"][0].lower() and not is_proceedings:
             first_authors.append(entry)
 
-        if "mackereth" not in paper["authors"][0].lower() and not is_proceedings:
+        if "mackereth" not in paper["authors"][0].lower() and not is_proceedings and not is_preprint:
             co_authors.append(entry)
 
     # Now go through and add the \item and numbers:
@@ -198,7 +199,6 @@ def get_paper_items(papers):
             num = len(corpus) - i
             corpus[i] = ("\\item[{\\scriptsize" +
                          str(num) + "}]" + item)
-
     return refereeds, proceedings, preprints, first_authors, co_authors
 
 
@@ -216,7 +216,7 @@ if __name__ == '__main__':
 
     # Compute citation stats
     nref = len(refs)
-    nfirst = sum(1 for p in papers if "Mackereth" in p["authors"][0])
+    nfirst = len(first)
     cites = sorted((p["citations"] for p in papers), reverse=True)
     ncitations = sum(cites)
     hindex = sum(c >= i for i, c in enumerate(cites))

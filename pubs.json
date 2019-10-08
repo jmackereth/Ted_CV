@@ -1,5 +1,47 @@
 [
     {
+        "arxiv": "1910.01646",
+        "authors": [
+            "Webb, Jeremy J.",
+            "Price-Jones, Natalie",
+            "Bovy, Jo",
+            "Portegies Zwart, Simon",
+            "Hunt, Jason A. S.",
+            "Mackereth, J. Ted",
+            "Leung, Henry W."
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2019-10-00",
+        "title": "Searching for Solar Siblings in APOGEE and $Gaia$ DR2 with N-body Simulations",
+        "url": "http://adsabs.harvard.edu/abs/2019arXiv191001646W",
+        "volume": null,
+        "year": "2019"
+    },
+    {
+        "arxiv": "1905.08309",
+        "authors": [
+            "Vincenzo, F.",
+            "Miglio, A.",
+            "Kobayashi, C.",
+            "Mackereth, J. T.",
+            "Montalban, J."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": "10.1051/0004-6361/201935886",
+        "page": null,
+        "pub": "Astronomy and Astrophysics",
+        "pubdate": "2019-10-00",
+        "title": "He abundances in disc galaxies. I. Predictions from cosmological chemodynamical simulations",
+        "url": "http://adsabs.harvard.edu/abs/2019A&A...630A.125V",
+        "volume": "630",
+        "year": "2019"
+    },
+    {
         "arxiv": "1901.04502",
         "authors": [
             "Mackereth, J. Ted",
@@ -61,7 +103,7 @@
             "Garcia-Hernandez, D. A.",
             "Roman-Lopes, Alexandre"
         ],
-        "citations": 9,
+        "citations": 10,
         "doctype": "eprint",
         "doi": null,
         "page": null,
@@ -69,26 +111,6 @@
         "pubdate": "2019-05-00",
         "title": "Life in the fast lane: a direct view of the dynamics, formation, and evolution of the Milky Way's bar",
         "url": "http://adsabs.harvard.edu/abs/2019arXiv190511404B",
-        "volume": null,
-        "year": "2019"
-    },
-    {
-        "arxiv": "1905.08309",
-        "authors": [
-            "Vincenzo, Fiorenzo",
-            "Miglio, Andrea",
-            "Kobayashi, Chiaki",
-            "Mackereth, J. Ted",
-            "Montalban, Josefina"
-        ],
-        "citations": 0,
-        "doctype": "eprint",
-        "doi": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2019-05-00",
-        "title": "He abundances in disc galaxies -- I. Predictions from cosmological chemodynamical simulations",
-        "url": "http://adsabs.harvard.edu/abs/2019arXiv190508309V",
         "volume": null,
         "year": "2019"
     },
@@ -330,7 +352,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 35,
+        "citations": 37,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aaf651",
         "page": 23,
@@ -917,7 +939,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 401,
+        "citations": 404,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aa9e8a",
         "page": 42,
@@ -1441,6 +1463,27 @@
         "pubdate": "2019-03-00",
         "title": "A galaxy's accretion history unveiled from its integrated spectrum",
         "url": "http://adsabs.harvard.edu/abs/2019arXiv190311089B",
+        "volume": null,
+        "year": "2019"
+    },
+    {
+        "arxiv": "1904.10968",
+        "authors": [
+            "Hunt, Jason A. S.",
+            "Bub, Mathew W.",
+            "Bovy, Jo",
+            "Ted Mackereth, J.",
+            "Trick, Wilma H.",
+            "Kawata, Daisuke"
+        ],
+        "citations": 1,
+        "doctype": "article",
+        "doi": "10.1093/mnras/stz2667",
+        "page": 2292,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2019-09-00",
+        "title": "Signatures of resonance and phase mixing in the Galactic disc",
+        "url": "http://adsabs.harvard.edu/abs/2019MNRAS.tmp.2292H",
         "volume": null,
         "year": "2019"
     }
