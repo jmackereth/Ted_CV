@@ -49,7 +49,7 @@ def get_all_papers(author):
 if __name__ == '__main__':
     papers = get_all_papers("Mackereth, J T")
     papers.extend(get_all_papers("Mackereth, Ted")) #papers where people missed off the J...
-
+    papers.extend(get_all_papers("Ted Mackereth, J")) #papers where MNRAS thinks my surname is Ted Mackereth...
     with open("pubs.json", "w") as f:
         json.dump(papers, f, sort_keys=True,
                   indent=4, separators=(",", ": "))
