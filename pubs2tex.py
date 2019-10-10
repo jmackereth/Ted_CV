@@ -180,7 +180,7 @@ def get_paper_items(papers):
             #entry += (" [\\href{{{0}}}{{{1} citations}}]"
                      # .format(paper["url"], paper["citations"]))
 
-        if is_preprint:
+        if is_preprint and not "mackereth" in paper["authors"][0].lower():
             preprints.append(entry)
         elif is_proceedings:
             proceedings.append(entry)
