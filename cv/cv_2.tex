@@ -45,6 +45,7 @@
 
 \documentclass[margin]{res}
 
+\usepackage[T1]{fontenc}
 % Default font is the helvetica postscript font
 \usepackage{tgtermes}
 \usepackage{aasmacros}
@@ -62,7 +63,7 @@
 \newcommand{\arxiv}[1]{{\href{http://arxiv.org/abs/#1}{arXiv:{#1}}}}
 
 \begin{document}
-
+%\urlstyle{sf}
 %-------------------------------------------------------------------------------
 %	NAME AND ADDRESS SECTION
 %-------------------------------------------------------------------------------
@@ -74,7 +75,7 @@
 % -linked-in profile
 \address{\Large{\textbf{J. Ted Mackereth}}\\
 Postdoctoral Research Fellow, \emph{University of Birmingham}}
-\address{j.e.mackereth@bham.ac.uk \\ jmackereth.github.io}
+\address{j.e.mackereth@bham.ac.uk \\ \href{https://jmackereth.github.io}{https://jmackereth.github.io}}
 
 % Uncomment to add a third address
 %\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
