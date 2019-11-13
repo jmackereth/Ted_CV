@@ -176,11 +176,13 @@ def get_paper_items(papers):
         if paper["arxiv"] is not None:
             entry += " (\\arxiv{{{0}}})".format(paper["arxiv"])
 
-        #if paper["citations"] > 1:
-            #entry += (" [\\href{{{0}}}{{{1} citations}}]"
-                     # .format(paper["url"], paper["citations"]))
 
-        if is_preprint and not "mackereth" in paper["authors"][0].lower():
+
+        if paper["citations"] > 1:
+            entry += ("~~{{\\footnotesize[\\href{{{0}}}{{cited: {1}}}]}}"
+                      .format(paper["url"], paper["citations"]))
+
+        if is_preprint:
             preprints.append(entry)
         elif is_proceedings:
             proceedings.append(entry)

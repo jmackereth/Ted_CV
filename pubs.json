@@ -1,5 +1,47 @@
 [
     {
+        "arxiv": "1905.11404",
+        "authors": [
+            "Bovy, Jo",
+            "Leung, Henry W.",
+            "Hunt, Jason A. S.",
+            "Mackereth, J. Ted",
+            "Garc\u00eda-Hern\u00e1ndez, Domingo A.",
+            "Roman-Lopes, Alexandre"
+        ],
+        "citations": 12,
+        "doctype": "article",
+        "doi": "10.1093/mnras/stz2891",
+        "page": 4740,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2019-12-00",
+        "title": "Life in the fast lane: a direct view of the dynamics, formation, and evolution of the Milky Way's bar",
+        "url": "http://adsabs.harvard.edu/abs/2019MNRAS.490.4740B",
+        "volume": "490",
+        "year": "2019"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Boecker, Alina",
+            "Leaman, Ryan",
+            "van de Ven, Glenn",
+            "Norris, Mark A.",
+            "Mackereth, J. Ted",
+            "Crain, Robert A."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": "10.1093/mnras/stz3077",
+        "page": 2678,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2019-11-00",
+        "title": "A galaxy's accretion history unveiled from its integrated spectrum",
+        "url": "http://adsabs.harvard.edu/abs/2019MNRAS.tmp.2678B",
+        "volume": null,
+        "year": "2019"
+    },
+    {
         "arxiv": "1904.10968",
         "authors": [
             "Hunt, Jason A. S.",
@@ -21,33 +63,12 @@
         "year": "2019"
     },
     {
-        "arxiv": "1905.11404",
-        "authors": [
-            "Bovy, Jo",
-            "Leung, Henry W.",
-            "Hunt, Jason A. S.",
-            "Mackereth, J. Ted",
-            "Garc\u00eda-Hern\u00e1ndez, D. A.",
-            "Roman-Lopes, Alexandre"
-        ],
-        "citations": 11,
-        "doctype": "article",
-        "doi": "10.1093/mnras/stz2891",
-        "page": 2487,
-        "pub": "Monthly Notices of the Royal Astronomical Society",
-        "pubdate": "2019-10-00",
-        "title": "Life in the fast lane: a direct view of the dynamics, formation, and evolution of the Milky Way's bar",
-        "url": "http://adsabs.harvard.edu/abs/2019MNRAS.tmp.2487B",
-        "volume": null,
-        "year": "2019"
-    },
-    {
         "arxiv": "1910.03590",
         "authors": [
             "Mackereth, J Ted",
             "Bovy, Jo"
         ],
-        "citations": 1,
+        "citations": 3,
         "doctype": "eprint",
         "doi": null,
         "page": null,
@@ -390,7 +411,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 42,
+        "citations": 48,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aaf651",
         "page": 23,
@@ -463,7 +484,7 @@
             "Tissera, Patricia B.",
             "Fern\u00e1ndez-Trincado, J. G."
         ],
-        "citations": 34,
+        "citations": 37,
         "doctype": "article",
         "doi": "10.1093/mnras/sty2955",
         "page": 3426,
@@ -480,7 +501,7 @@
             "Mackereth, J. Ted",
             "Bovy, Jo"
         ],
-        "citations": 7,
+        "citations": 8,
         "doctype": "article",
         "doi": "10.1088/1538-3873/aadcdd",
         "page": 114501,
@@ -537,7 +558,7 @@
             "Theuns, Tom",
             "Schaller, Matthieu"
         ],
-        "citations": 18,
+        "citations": 19,
         "doctype": "article",
         "doi": "10.1093/mnras/sty972",
         "page": 5072,
@@ -977,7 +998,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 413,
+        "citations": 425,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aa9e8a",
         "page": 42,
@@ -1336,7 +1357,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 296,
+        "citations": 302,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aa8992",
         "page": 25,
@@ -1425,7 +1446,7 @@
             "Wilson, John C.",
             "Zasowski, Gail"
         ],
-        "citations": 75,
+        "citations": 76,
         "doctype": "article",
         "doi": "10.1093/mnras/stw2162",
         "page": 501,
