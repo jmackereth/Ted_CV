@@ -1,5 +1,77 @@
 [
     {
+        "arxiv": "2001.03177",
+        "authors": [
+            "Horta, Danny",
+            "Schiavon, Ricardo P.",
+            "Mackereth, J. Ted",
+            "Beers, Timothy C.",
+            "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
+            "Frinchaboy, Peter M.",
+            "Garc\u00eda-Hern\u00e1ndez, D. A.",
+            "Geisler, Doug",
+            "Hasselquist, Sten",
+            "J\u00f6nsson, Henrik",
+            "Lane, Richard R.",
+            "Majewski, Steven R.",
+            "M\u00e9sz\u00e1ros, Szabolcs",
+            "Bidin, Christian Moni",
+            "Nataf, David M.",
+            "Roman-Lopes, Alexandre",
+            "Nitschelm, Christian",
+            "Vargas-Gonz\u00e1lez, J.",
+            "Zasowski, Gail"
+        ],
+        "citations": 2,
+        "doctype": "article",
+        "doi": "10.1093/mnras/staa478",
+        "page": 3363,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2020-04-00",
+        "title": "The chemical compositions of accreted and in situ galactic globular clusters according to SDSS/APOGEE",
+        "url": "http://adsabs.harvard.edu/abs/2020MNRAS.493.3363H",
+        "volume": "493",
+        "year": "2020"
+    },
+    {
+        "arxiv": "1910.03590",
+        "authors": [
+            "Mackereth, J. Ted",
+            "Bovy, Jo"
+        ],
+        "citations": 5,
+        "doctype": "article",
+        "doi": "10.1093/mnras/staa047",
+        "page": 3631,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2020-03-00",
+        "title": "Weighing the stellar constituents of the galactic halo with APOGEE red giant stars",
+        "url": "http://adsabs.harvard.edu/abs/2020MNRAS.492.3631M",
+        "volume": "492",
+        "year": "2020"
+    },
+    {
+        "arxiv": "1903.11089",
+        "authors": [
+            "Boecker, Alina",
+            "Leaman, Ryan",
+            "van de Ven, Glenn",
+            "Norris, Mark A.",
+            "Mackereth, J. Ted",
+            "Crain, Robert A."
+        ],
+        "citations": 4,
+        "doctype": "article",
+        "doi": "10.1093/mnras/stz3077",
+        "page": 823,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2020-01-00",
+        "title": "A galaxy's accretion history unveiled from its integrated spectrum",
+        "url": "http://adsabs.harvard.edu/abs/2020MNRAS.491..823B",
+        "volume": "491",
+        "year": "2020"
+    },
+    {
         "arxiv": "2001.04653",
         "authors": [
             "Chaplin, William J.",
@@ -88,7 +160,7 @@
             "Winn, Joshua N.",
             "Y\u0131ld\u0131z, Mutlu"
         ],
-        "citations": 0,
+        "citations": 1,
         "doctype": "article",
         "doi": "10.1038/s41550-019-0975-9",
         "page": 7,
@@ -100,36 +172,23 @@
         "year": "2020"
     },
     {
-        "arxiv": "2001.03177",
+        "arxiv": "2002.08380",
         "authors": [
-            "Horta, Danny",
             "Schiavon, Ricardo P.",
             "Mackereth, J. Ted",
-            "Beers, Timothy C.",
-            "Fern\u00e1ndez-Trincado, Jos\u00e9 G.",
-            "Frinchaboy, Peter M.",
-            "Garc\u00eda-Hern\u00e1ndez, D. A.",
-            "Geisler, Doug",
-            "Hasselquist, Sten",
-            "J\u00f6nsson, Henrik",
-            "Lane, Richard R.",
-            "Majewski, Steven R.",
-            "M\u00e9sz\u00e1ros, Szabolcs",
-            "Moni Bidin, Christian",
-            "Nataf, David M.",
-            "Roman-Lopes, Alexandre",
-            "Nitschelm, Christian",
-            "Zasowski, Gail"
+            "Pfeffer, Joel",
+            "Crain, Rob A.",
+            "Bovy, Jo"
         ],
         "citations": 0,
-        "doctype": "eprint",
-        "doi": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2020-01-00",
-        "title": "The Chemical Compositions of Accreted and {\\it in situ} Galactic Globular Clusters According to SDSS/APOGEE",
-        "url": "http://adsabs.harvard.edu/abs/2020arXiv200103177H",
-        "volume": null,
+        "doctype": "inproceedings",
+        "doi": "10.1017/S1743921319007889",
+        "page": 170,
+        "pub": "IAU Symposium",
+        "pubdate": "2020-00-00",
+        "title": "The building blocks of the Milky Way halo using APOGEE and Gaia or Is the Galaxy a typical galaxy?",
+        "url": "http://adsabs.harvard.edu/abs/2020IAUS..351..170S",
+        "volume": "351",
         "year": "2020"
     },
     {
@@ -449,7 +508,7 @@
             "Zhu, Guangtun",
             "Zou, Hu"
         ],
-        "citations": 4,
+        "citations": 13,
         "doctype": "eprint",
         "doi": null,
         "page": null,
@@ -470,7 +529,7 @@
             "Garc\u00eda-Hern\u00e1ndez, Domingo A.",
             "Roman-Lopes, Alexandre"
         ],
-        "citations": 21,
+        "citations": 27,
         "doctype": "article",
         "doi": "10.1093/mnras/stz2891",
         "page": 4740,
@@ -479,27 +538,6 @@
         "title": "Life in the fast lane: a direct view of the dynamics, formation, and evolution of the Milky Way's bar",
         "url": "http://adsabs.harvard.edu/abs/2019MNRAS.490.4740B",
         "volume": "490",
-        "year": "2019"
-    },
-    {
-        "arxiv": "1903.11089",
-        "authors": [
-            "Boecker, Alina",
-            "Leaman, Ryan",
-            "van de Ven, Glenn",
-            "Norris, Mark A.",
-            "Mackereth, J. Ted",
-            "Crain, Robert A."
-        ],
-        "citations": 2,
-        "doctype": "article",
-        "doi": "10.1093/mnras/stz3077",
-        "page": 2678,
-        "pub": "Monthly Notices of the Royal Astronomical Society",
-        "pubdate": "2019-11-00",
-        "title": "A galaxy's accretion history unveiled from its integrated spectrum",
-        "url": "http://adsabs.harvard.edu/abs/2019MNRAS.tmp.2678B",
-        "volume": null,
         "year": "2019"
     },
     {
@@ -512,7 +550,7 @@
             "Trick, Wilma H.",
             "Kawata, Daisuke"
         ],
-        "citations": 4,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.1093/mnras/stz2667",
         "page": 1026,
@@ -521,23 +559,6 @@
         "title": "Signatures of resonance and phase mixing in the Galactic disc",
         "url": "http://adsabs.harvard.edu/abs/2019MNRAS.490.1026H",
         "volume": "490",
-        "year": "2019"
-    },
-    {
-        "arxiv": "1910.03590",
-        "authors": [
-            "Mackereth, J. Ted",
-            "Bovy, Jo"
-        ],
-        "citations": 5,
-        "doctype": "eprint",
-        "doi": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2019-10-00",
-        "title": "Weighing the stellar constituents of the Galactic halo with APOGEE red giant stars",
-        "url": "http://adsabs.harvard.edu/abs/2019arXiv191003590M",
-        "volume": null,
         "year": "2019"
     },
     {
@@ -551,7 +572,7 @@
             "Mackereth, J. Ted",
             "Leung, Henry W."
         ],
-        "citations": 0,
+        "citations": 2,
         "doctype": "eprint",
         "doi": null,
         "page": null,
@@ -603,7 +624,7 @@
             "Tayar, Jamie",
             "Zasowski, Gail"
         ],
-        "citations": 22,
+        "citations": 27,
         "doctype": "article",
         "doi": "10.1093/mnras/stz1521",
         "page": 176,
@@ -623,7 +644,7 @@
             "Mackereth, J. Ted",
             "White, Simon D. M."
         ],
-        "citations": 5,
+        "citations": 9,
         "doctype": "eprint",
         "doi": null,
         "page": null,
@@ -872,7 +893,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 61,
+        "citations": 77,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aaf651",
         "page": 23,
@@ -945,7 +966,7 @@
             "Tissera, Patricia B.",
             "Fern\u00e1ndez-Trincado, J. G."
         ],
-        "citations": 48,
+        "citations": 55,
         "doctype": "article",
         "doi": "10.1093/mnras/sty2955",
         "page": 3426,
@@ -1019,7 +1040,7 @@
             "Theuns, Tom",
             "Schaller, Matthieu"
         ],
-        "citations": 22,
+        "citations": 25,
         "doctype": "article",
         "doi": "10.1093/mnras/sty972",
         "page": 5072,
@@ -1459,7 +1480,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 457,
+        "citations": 492,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aa9e8a",
         "page": 42,
@@ -1818,7 +1839,7 @@
             "Zinn, Joel C.",
             "Zou, Hu"
         ],
-        "citations": 313,
+        "citations": 332,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aa8992",
         "page": 25,
@@ -1847,7 +1868,7 @@
             "Pinsonneault, Marc",
             "Shetrone, Matthew D."
         ],
-        "citations": 57,
+        "citations": 62,
         "doctype": "article",
         "doi": "10.1093/mnras/stx1774",
         "page": 3057,
@@ -1907,7 +1928,7 @@
             "Wilson, John C.",
             "Zasowski, Gail"
         ],
-        "citations": 79,
+        "citations": 86,
         "doctype": "article",
         "doi": "10.1093/mnras/stw2162",
         "page": 501,
@@ -1964,5 +1985,24 @@
         "url": "http://adsabs.harvard.edu/abs/2019arXiv190805129M",
         "volume": null,
         "year": "2019"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Horta, Danny",
+            "Ted Mackereth, J.",
+            "Schiavon, Ricardo P.",
+            "SDSS-Iv/Apogee Collaboration"
+        ],
+        "citations": 0,
+        "doctype": "inproceedings",
+        "doi": "10.1017/S1743921319007932",
+        "page": 455,
+        "pub": "IAU Symposium",
+        "pubdate": "2020-00-00",
+        "title": "The contribution of Globular Clusters to the stellar halo using APOGEE and GAIA",
+        "url": "http://adsabs.harvard.edu/abs/2020IAUS..351..455H",
+        "volume": "351",
+        "year": "2020"
     }
 ]
